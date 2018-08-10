@@ -19,5 +19,21 @@ namespace AProblemTester
             var myList = sp.Process();
             Assert.IsTrue(myList.Count == 24);
         }
+
+        [TestMethod]
+        public void Test2()
+        {
+            var sp = new RecursivePermutationStringPermutation2("abcd");
+            var result = sp.Process();
+            Assert.IsTrue(result.Count == 24);
+        }
+
+        [TestMethod]
+        public void Test3()
+        {
+            var sp = new RecursivePermutationStringProcessor3("abcd");
+            var result = sp.Process();
+            Assert.IsTrue(result.Count == 24);
+        }
     }
 }

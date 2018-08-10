@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="RecursivePermutationProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecursivePermutationStringPermutation2.cs" />
+    <Compile Include="RecursivePermutationStringProcessor3.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
