@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InflightEntertainmentTester.cs" />
     <Compile Include="MatchingParenthesisTester.cs" />
     <Compile Include="RainWaterTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,6 +69,10 @@
     <ProjectReference Include="..\CreateAStack\CreateAStack.csproj">
       <Project>{13d6f18c-38c8-4101-811f-4a000dd46f2d}</Project>
       <Name>CreateAStack</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FindTwoIntegersThatDoNotExceedMax\FindTwoIntegersThatDoNotExceedMax.csproj">
+      <Project>{98aac776-968f-4df0-82b9-b5649b2862ff}</Project>
+      <Name>FindTwoIntegersThatDoNotExceedMax</Name>
     </ProjectReference>
     <ProjectReference Include="..\Parenthesis\Parenthesis.csproj">
       <Project>{8e7219d2-1ed6-439e-8ceb-d43da3eab92f}</Project>
